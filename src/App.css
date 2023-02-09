@@ -1,0 +1,41 @@
+body {
+  background: #e1e1e1;
+}
+.container {
+  background-color: rgb(179, 213, 201);
+  font-family: monospace;
+}
+#firstName,
+#lastName,
+#age,
+#password {
+  width: 250px;
+  height: 35px;
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  outline-color: rgb(0, 83, 215);
+}
+
+label {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(71, 71, 71);
+}
+.button {
+  background-color: #20225e;
+  color: white;
+  font-weight: 500;
+  width: 100px;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.errors {
+  color: #bd0000;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 600;
+}
