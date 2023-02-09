@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/FormikValidation/static/css/main.7e010f1b.css",
+    "main.js": "/FormikValidation/static/js/main.9bdb3e92.js",
+    "index.html": "/FormikValidation/index.html",
+    "main.7e010f1b.css.map": "/FormikValidation/static/css/main.7e010f1b.css.map",
+    "main.9bdb3e92.js.map": "/FormikValidation/static/js/main.9bdb3e92.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7e010f1b.css",
+    "static/js/main.9bdb3e92.js"
+  ]
+}
