@@ -1,10 +1,19 @@
+import { addDoc, collection } from "firebase/firestore";
 import { useFormik } from "formik";
 import * as yup from "yup";
 import "./App.css";
+import { db } from "./firebase";
 
 const onSubmit = async (values, actions) => {
   console.log("form submitted");
   await new Promise((resolve) => setTimeout(resolve, 0));
+  if (values) {
+    await addDoc(collection(db, "data"), {
+      data: values,
+    });
+  }
+
+  alert("data submitted");
   actions.resetForm();
 };
 const Validation = yup.object().shape({
